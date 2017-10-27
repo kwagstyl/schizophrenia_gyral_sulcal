@@ -1,0 +1,17 @@
+Hemi="lh rh"
+for s in C0*
+
+do
+
+for h in $Hemi
+do
+
+mri_surf2surf --srcsubject fsaverage --trgsubject "$s" --hemi "$h"\
+ --sval-annot fsaverage/label/"$h".PALS_B12_Visuotopic.annot --tval \
+"$s"/label/"$h".PALS_B12_Visuotopic.annot
+mri_surf2surf --srcsubject fsaverage --trgsubject "$s" --hemi "$h"\
+ --sval-annot fsaverage/label/"$h".PALS_B12_Brodmann.annot --tval \
+"$s"/label/"$h".PALS_B12_Brodmann.annot
+
+done
+done
