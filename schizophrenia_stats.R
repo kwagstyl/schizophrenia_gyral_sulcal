@@ -1,4 +1,4 @@
-setwd("~/Dropbox/Schizophrenia/SchizData/")
+setwd("schizophrenia_results_dir")
 ggplot(data=l,aes(x=Age, y=MeanThickness, colour=group))+geom_smooth(metho="lm")+geom_point()
 %Results 1) Mean thickness differences
 l <- read.xlsx(file="GyralSulcalData.xlsx", sheetName= "CurvOxCaf")

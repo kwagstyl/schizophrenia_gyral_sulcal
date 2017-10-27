@@ -1,5 +1,5 @@
 clear all
-cd /work/imagingC/kwMyelinCurv/oxfordcaf/
+cd /path/to/subjects/dir/
 setenv SUBJECTS_DIR .
 subs=dir('C0*');
 % hierarchical level estimate for HE label regions. Taken from

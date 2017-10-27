@@ -1,6 +1,6 @@
 clear all
 format long g
-cd /work/imagingC/kwMyelinCurv/oxfordcaf
+cd /path/to/subjects/dir/
 setenv SUBJECTS_DIR .
 
 subs=dir('C0*');
