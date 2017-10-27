@@ -1,0 +1,1 @@
+# schizophrenia_gyral_sulcal
